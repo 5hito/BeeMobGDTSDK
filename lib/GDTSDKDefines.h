@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-// native SDK 版本
-#define GDTMOB_SDK_VERSION                              @"4.7.0"
-
 #if defined(__has_attribute)
 #if __has_attribute(deprecated)
 #define GDT_DEPRECATED_MSG_ATTRIBUTE(s) __attribute__((deprecated(s)))

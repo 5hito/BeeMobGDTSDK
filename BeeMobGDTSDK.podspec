@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeMobGDTSDK"
-  s.version      = "1.0.0"
-  s.summary      = "广点通广告, 版本4.7.0"
+  s.version      = "1.0.1"
+  s.summary      = "广点通广告, 版本4.7.8"
   s.description  = <<-DESC
-    * 4.7.0    iOS 4.7.0版本，支持Banner广告，插屏广告，原生广告，开屏广告，原生模板广告。适配 iPhone X、支持 Auto Layout。
+    * 4.7.8    iOS 4.7.8版本，支持Banner广告，插屏广告，原生广告，开屏广告，原生模板广告。适配 iPhone X、支持 Auto Layout。
                    DESC
 
   s.homepage     = "https://github.com/5hito/BeeMobGDTSDK"
