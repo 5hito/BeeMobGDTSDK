@@ -2,10 +2,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeMobGDTSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "广点通广告, 版本4.7.8"
   s.description  = <<-DESC
-    * 4.7.8    iOS 4.7.8版本，支持Banner广告，插屏广告，原生广告，开屏广告，原生模板广告。适配 iPhone X、支持 Auto Layout。
+    *1.0.1 对应广点通iOS 4.7.8版本，支持Banner广告，插屏广告，原生广告，开屏广告，原生模板广告。
+    *1.0.2 对应广点通iOS 4.8.1，支持Banner广告，插屏广告，原生广告，开屏广告，原生模板广告，激励视频广告。
                    DESC
 
   s.homepage     = "https://github.com/5hito/BeeMobGDTSDK"
@@ -15,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '8.0'
   s.source       = { :git => "https://github.com/5hito/BeeMobGDTSDK.git", :tag => s.version.to_s }
 
-  s.frameworks = "AdSupport", "CoreLocation", "QuartzCore", "SystemConfiguration", "CoreTelephony", "Security", "StoreKit", "WebKit", "AVFoundation"
+  s.frameworks = "AdSupport", "CoreLocation", "QuartzCore", "SystemConfiguration", "CoreTelephony", "Security", "StoreKit", "WebKit", "AVFoundation", "CoreGraphics", "UIKit", "Foundation"
   s.libraries = "z", "xml2"
 
   s.requires_arc = true
