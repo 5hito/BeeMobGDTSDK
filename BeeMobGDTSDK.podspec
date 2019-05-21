@@ -2,11 +2,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeMobGDTSDK"
-  s.version      = "1.0.2"
-  s.summary      = "广点通广告, 版本4.7.8"
+  s.version      = "4.10.1"
+  s.summary      = "广点通广告, 版本4.10.1"
   s.description  = <<-DESC
-    *1.0.1 对应广点通iOS 4.7.8版本，支持Banner广告，插屏广告，原生广告，开屏广告，原生模板广告。
-    *1.0.2 对应广点通iOS 4.8.1，支持Banner广告，插屏广告，原生广告，开屏广告，原生模板广告，激励视频广告。
+    广点通iOS版本sdk，版本号与广点通官网对应，更新描述以官方为准
                    DESC
 
   s.homepage     = "https://github.com/5hito/BeeMobGDTSDK"
